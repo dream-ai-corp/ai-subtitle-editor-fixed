@@ -1,0 +1,38 @@
+[0;34m🚀 AI Subtitle Editor - Application Runner[0m
+==================================================
+[0;34mℹ️  Starting AI Subtitle Editor...[0m
+[0;34mℹ️  Stopping application...[0m
+[0;34mℹ️  Checking for existing Django processes...[0m
+[0;32m✅ No existing Django processes found[0m
+[0;34mℹ️  Checking for existing Yarn processes...[0m
+[0;32m✅ No existing Yarn processes found[0m
+[0;32m✅ Application stopped[0m
+[0;34mℹ️  Checking dependencies...[0m
+[0;32m✅ All dependencies are available[0m
+[0;34mℹ️  Starting backend server...[0m
+[0;34mℹ️  Waiting for Backend to be ready...[0m
+..[0;32m✅ Backend is ready![0m
+[0;32m✅ Backend started successfully (PID: 1294)[0m
+[0;34mℹ️  Starting frontend server...[0m
+[0;34mℹ️  Waiting for Frontend to be ready...[0m
+[0;32m✅ Frontend is ready on port 9000![0m
+[0;32m✅ Frontend started successfully (PID: 9930) on port 9000[0m
+
+[0;34m📊 Application Status[0m
+======================
+[0;32m✅ Backend: Running (PID: 1294)[0m
+[0;32m✅ Frontend: Running (PID: 9930)[0m
+[0;32m✅ Backend port 8000: In use[0m
+[0;32m✅ Frontend port 9000: In use[0m
+
+[0;32m✅ 🎉 Application started successfully![0m
+
+[0;34mAccess URLs:[0m
+  Frontend: http://localhost:9000
+  Backend API: http://localhost:8000
+
+[0;34mLogs:[0m
+  Backend: /Users/beniben/Domaines_De_vie/3_Carriere/Business/AI-Subtitle-Editor-2/backend.log
+  Frontend: /Users/beniben/Domaines_De_vie/3_Carriere/Business/AI-Subtitle-Editor-2/frontend.log
+
+[1;33mPress Ctrl+C to stop the application[0m
