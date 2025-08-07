@@ -1,0 +1,19 @@
+{
+  "template_name": "quasar-frontend-template",
+  "version": "1.0.0",
+  "description": "Template for quasar-frontend-template projects",
+  "author": "Code-Czar",
+  "repository": "git@github.com-Code-Czar:Code-Czar/quasar-frontend-template.git",
+  "tags": ["template", "quasar-frontend-template"],
+  "customization_points": [
+    "package.json",
+    "configuration files",
+    "environment variables"
+  ],
+  "setup_instructions": [
+    "Clone the repository",
+    "Update project name and configuration",
+    "Install dependencies",
+    "Run setup scripts"
+  ]
+}
