@@ -1,0 +1,136 @@
+{
+    "products": [
+        {
+            "id": "prod_SoMRaG2MTtodR1",
+            "name": "Basic",
+            "price": 9.99,
+            "currency": "usd",
+            "interval": "month",
+            "description": "Perfect for beginners",
+            "features": [
+                "basic_subtitles",
+                "video_upload",
+                "subtitle_editing"
+            ],
+            "stripe": {
+                "product_id": "prod_SoMRaG2MTtodR1",
+                "price_id": "price_basic_monthly"
+            },
+            "limits": {
+                "videos_per_month": 10,
+                "max_video_duration": "30 minutes",
+                "languages": [
+                    "English"
+                ]
+            },
+            "metadata": {
+                "category": "starter",
+                "popular": false,
+                "recommended_for": [
+                    "beginners",
+                    "small creators"
+                ]
+            }
+        },
+        {
+            "id": "prod_SoMSs2YZE1zCEq",
+            "name": "Professional",
+            "price": 29.99,
+            "currency": "usd",
+            "interval": "month",
+            "description": "For content creators",
+            "features": [
+                "basic_subtitles",
+                "video_upload",
+                "subtitle_editing",
+                "advanced_ai",
+                "bulk_processing",
+                "priority_support"
+            ],
+            "stripe": {
+                "product_id": "prod_SoMSs2YZE1zCEq",
+                "price_id": "price_professional_monthly"
+            },
+            "limits": {
+                "videos_per_month": 100,
+                "max_video_duration": "2 hours",
+                "languages": [
+                    "English",
+                    "Spanish",
+                    "French",
+                    "German",
+                    "Italian"
+                ]
+            },
+            "metadata": {
+                "category": "professional",
+                "popular": true,
+                "recommended_for": [
+                    "content creators",
+                    "youtubers",
+                    "businesses"
+                ]
+            }
+        },
+        {
+            "id": "prod_SoMS0GmORJMfdo",
+            "name": "Enterprise",
+            "price": 99.99,
+            "currency": "usd",
+            "interval": "month",
+            "description": "For large organizations",
+            "features": [
+                "basic_subtitles",
+                "video_upload",
+                "subtitle_editing",
+                "advanced_ai",
+                "bulk_processing",
+                "priority_support",
+                "custom_integration",
+                "white_label"
+            ],
+            "stripe": {
+                "product_id": "prod_SoMS0GmORJMfdo",
+                "price_id": "price_enterprise_monthly"
+            },
+            "limits": {
+                "videos_per_month": "unlimited",
+                "max_video_duration": "unlimited",
+                "languages": [
+                    "all supported languages"
+                ]
+            },
+            "metadata": {
+                "category": "enterprise",
+                "popular": false,
+                "recommended_for": [
+                    "large organizations",
+                    "agencies",
+                    "enterprises"
+                ]
+            }
+        }
+    ],
+    "config": {
+        "currency_symbol": "$",
+        "default_interval": "month",
+        "featured_plan_id": "prod_SoMSs2YZE1zCEq",
+        "categories": {
+            "starter": {
+                "name": "Starter",
+                "color": "#667eea",
+                "icon": "rocket_launch"
+            },
+            "professional": {
+                "name": "Professional",
+                "color": "#764ba2",
+                "icon": "star"
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "color": "#f093fb",
+                "icon": "business"
+            }
+        }
+    }
+}
