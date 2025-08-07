@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Success</title>
+    <script>
+        console.log('Payment success page loaded');
+        console.log('Plan ID from template: {{ plan_id }}');
+        console.log('Plan name from template: {{ plan_name }}');
+        
+        // Get session_id from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const sessionId = urlParams.get('session_id');
+        
+        console.log('Session ID from URL:', sessionId);
+        console.log('Current URL:', window.location.href);
+        
+        // Redirect to frontend with session data
+        if (sessionId) {
+            console.log('Storing session data and redirecting...');
+            // Store session_id in localStorage for frontend to use
+            localStorage.setItem('stripe_session_id', sessionId);
+            localStorage.setItem('stripe_plan_id', '{{ plan_id }}');
+            
+            const redirectUrl = 'http://localhost:9001/payment-success?session_id=' + sessionId + '&plan_id={{ plan_id }}';
+            console.log('Redirecting to:', redirectUrl);
+            
+            // Redirect to frontend
+            window.location.href = redirectUrl;
+        } else {
+            console.log('No session ID found, redirecting to app');
+            // Fallback redirect
+            window.location.href = 'http://localhost:9001/app';
+        }
+    </script>
+</head>
+<body>
+    <h1>Payment Successful!</h1>
+    <p>Thank you for your subscription.</p>
+    <p>Plan: {{ plan_name }}</p>
+    <p>Price: ${{ plan_price }}/month</p>
+    <p>Redirecting to dashboard...</p>
+</body>
+</html> 
