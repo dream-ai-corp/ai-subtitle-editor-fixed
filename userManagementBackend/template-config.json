@@ -1,0 +1,19 @@
+{
+  "template_name": "django-backend-template",
+  "version": "1.0.0",
+  "description": "Template for django-backend-template projects",
+  "author": "Code-Czar",
+  "repository": "git@github.com-Code-Czar:Code-Czar/django-backend-template.git",
+  "tags": ["template", "django-backend-template"],
+  "customization_points": [
+    "package.json",
+    "configuration files",
+    "environment variables"
+  ],
+  "setup_instructions": [
+    "Clone the repository",
+    "Update project name and configuration",
+    "Install dependencies",
+    "Run setup scripts"
+  ]
+}
