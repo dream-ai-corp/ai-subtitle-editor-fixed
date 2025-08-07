@@ -1,0 +1,1 @@
+# Custom app for AI Subtitle Editor 
